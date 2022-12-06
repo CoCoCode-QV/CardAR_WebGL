@@ -136,11 +136,11 @@
         var db = indexedDB.open("dummy_indexdb", 1); // iOS 14.6 fix; the call to open indexdb hangs forever otherwise
 
         const buildUrl = "Build";
-        const loaderUrl = buildUrl + "/BuildWebGL.loader.js";
+        const loaderUrl = buildUrl + "/BuildWebAR.loader.js";
         const config = {
-            dataUrl: buildUrl + "/BuildWebGL.data.gz",
-            frameworkUrl: buildUrl + "/BuildWebGL.framework.js.gz",
-            codeUrl: buildUrl + "/BuildWebGL.wasm.gz",
+            dataUrl: buildUrl + "/BuildWebAR.data.gz",
+            frameworkUrl: buildUrl + "/BuildWebAR.framework.js.gz",
+            codeUrl: buildUrl + "/BuildWebAR.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
             companyName: "DefaultCompany",
             productName: "CardVisitAR",
